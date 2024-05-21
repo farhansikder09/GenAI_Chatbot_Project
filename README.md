@@ -32,19 +32,14 @@ This project involves developing a GenAI chatbot integrated with AWS services to
 └── README.md                 # Project documentation
 ```
 
-## Setup and Installation
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/Jurassic-GenAI-Chatbot-AWS.git
-    cd Jurassic-GenAI-Chatbot-AWS
-    ```
 
-2. **Install Dependencies**:
+
+1. **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Set Up Environment Variables**:
+2. **Set Up Environment Variables**:
     - Create a `.env` file in the root directory and add your API keys and other sensitive information:
     ```plaintext
     OPENAI_API_KEY=your_openai_api_key
@@ -53,7 +48,7 @@ This project involves developing a GenAI chatbot integrated with AWS services to
     OPENMETEO_API_KEY=your_openmeteo_api_key
     ```
 
-4. **Run the Streamlit Chatbot**:
+3. **Run the Streamlit Chatbot**:
     ```bash
     streamlit run code/streamlit_chatbot.py
     ```
